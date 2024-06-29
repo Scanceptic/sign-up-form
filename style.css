@@ -9,6 +9,11 @@
 	--input-default-color: #e5e7eb;
 }
 
+@font-face {
+	font-family: norse-bold;
+	src: url(../Norse-Bold.otf);
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -40,23 +45,24 @@ body {
 	border-right: 2px solid black;
 	background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962");
 	background-size: cover;
+    min-width: 300px;
 }
 
 .logo-overlay {
-	font-size: 3rem;
-	font-family: "Trebuchet";
+	font-size: max(3rem, 10vh);
+	font-family: norse-bold, sans-serif;
 	background-color: var(--img-contrast-bg-color);
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 20vh 0 0 0;
-    height: 15vh;
-    min-height: 100px;
+	height: 15vh;
+	min-height: 100px;
 }
 
 #logo {
-    height: 90%;
+	height: 90%;
 }
 
 .image-section a {
