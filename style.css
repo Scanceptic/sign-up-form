@@ -1,0 +1,29 @@
+:root {
+    box-sizing: border-box;
+    --main-bg-color: #585858;
+    --main-txt-color: #f3f3f3;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+
+.header, .content, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40%
+}
+
+.footer {
+    margin-top: auto;
+}
