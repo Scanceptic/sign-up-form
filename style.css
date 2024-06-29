@@ -51,6 +51,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 20vh 0 0 0;
+    height: 15vh;
+    min-height: 100px;
+}
+
+#logo {
+    height: 90%;
 }
 
 .image-section a {
