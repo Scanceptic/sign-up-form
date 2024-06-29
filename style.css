@@ -30,8 +30,7 @@ body {
 	display: flex;
 }
 
-.image-section,
-.main {
+.image-section {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -86,8 +85,6 @@ body {
 }
 
 .header {
-	display: flex;
-	flex-direction: column;
 	padding: 100px 20% 50px 5%;
 	font-weight: 700;
 	font-size: 1.25rem;
@@ -111,14 +108,24 @@ body {
 	margin: 0;
 	background-color: var(--form-bg-color);
 	width: 100%;
-	padding: 10px;
+	padding: +10px 0 30px 5%;
     box-shadow: 1px 2px 5px var(--form-shadow-color);
 }
 
+.form p {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
 fieldset {
-	display: flex;
-	gap: 20px;
+    
 	border: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 0.75rem;
 }
 
 input {
@@ -137,17 +144,32 @@ input:invalid {
 	box-shadow: 2px 1px 1px red;
 }
 
+.actions {
+    padding-left: 5%;
+}
+
 #create-account {
     background-color: var(--button-bg-color);
     color: var(--img-txt-color);
     padding: 10px 40px;
     border: none;
     border-radius: 5px;
-    margin: 20px;
+    margin: 20px 0;
+}
+
+#create-account:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #login a {
     text-decoration: none;
+    color: var(--button-bg-color);
+    font-weight: 700;
+}
+
+#login a:hover {
+    text-decoration: underline;
 }
 
 .footer {
@@ -157,4 +179,5 @@ input:invalid {
 	padding: 10px;
 	width: 100%;
 	margin-top: auto;
+    font-size: 0.75rem;
 }

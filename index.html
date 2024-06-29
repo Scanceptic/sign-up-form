@@ -36,22 +36,36 @@
 			</div>
 			<div class="form">
 				<p>Let's do this!</p>
-				<fieldset>
-					<input id="first-name" />
-					<input id="last-name" />
-				</fieldset>
-				<fieldset>
-					<input id="email" type="email" />
-					<input id="phone-number" />
-				</fieldset>
-				<fieldset>
-					<input id="password" type="password" />
-					<input id="confirm-password" type="password" />
-				</fieldset>
+				<form action="" method="">
+					<fieldset>
+						<label for="first_name">First Name</label>
+						<input type="text" id="first_name" name="first_name" />
+						<label for="last_name">Last Name</label>
+						<input type="text" id="last_name" name="last_name" />
+					</fieldset>
+					<fieldset>
+						<label for="email">Email</label>
+						<input type="email" id="email" name="email" />
+						<label for="phone_number">Phone Number</label>
+						<input type="number" id="phone_number" name="phone_number" />
+					</fieldset>
+					<fieldset>
+						<label for="password">Password</label>
+						<input type="password" id="password" name="password" />
+						<label for="confirm_password">Confirm Password</label>
+						<input
+							type="password"
+							id="confirm_password"
+							name="confirm_password"
+						/>
+					</fieldset>
+				</form>
 			</div>
-			<button id="create-account" type="submit">Create Account</button>
-			<div id="login">
-				<p>Already have an account? <a href="#">Log in</a></p>
+			<div class="actions">
+				<button id="create-account" type="submit">Create Account</button>
+				<div id="login">
+					<p>Already have an account? <a href="#">Log in</a></p>
+				</div>
 			</div>
 			<div class="footer">
 				<p>By Scanceptic</p>
