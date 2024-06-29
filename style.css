@@ -105,12 +105,12 @@ input {
 
 input:valid {
 	border-color: green;
-	box-shadow: green;
+	box-shadow: 2px 1px green;
 }
 
 input:invalid {
 	border-color: red;
-	box-shadow: red;
+	box-shadow: 2px 1px red;
 }
 
 .footer {
