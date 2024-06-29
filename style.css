@@ -5,6 +5,7 @@
 	--img-txt-color: #f3f3f3;
 	--img-contrast-bg-color: rgba(10, 10, 10, 0.5);
 	--form-bg-color: #fafafa;
+    --form-shadow-color: #dadada;
 	--button-bg-color: #596d48;
 	--input-default-color: #e5e7eb;
 }
@@ -111,6 +112,7 @@ body {
 	background-color: var(--form-bg-color);
 	width: 100%;
 	padding: 10px;
+    box-shadow: 1px 2px 5px var(--form-shadow-color);
 }
 
 fieldset {
@@ -121,18 +123,31 @@ fieldset {
 
 input {
 	border: 1px solid var(--input-default-color);
-	box-shadow: 2px 1px black;
+	box-shadow: 2px 1px 1px black;
 	border-radius: 5px;
 }
 
 input:valid {
 	border-color: green;
-	box-shadow: 2px 1px green;
+	box-shadow: 2px 1px 1px green;
 }
 
 input:invalid {
 	border-color: red;
-	box-shadow: 2px 1px red;
+	box-shadow: 2px 1px 1px red;
+}
+
+#create-account {
+    background-color: var(--button-bg-color);
+    color: var(--img-txt-color);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#login a {
+    text-decoration: none;
 }
 
 .footer {
