@@ -5,7 +5,7 @@
 	--img-txt-color: #f3f3f3;
 	--img-contrast-bg-color: rgba(10, 10, 10, 0.5);
 	--form-bg-color: #fafafa;
-    --form-shadow-color: #dadada;
+	--form-shadow-color: #dadada;
 	--button-bg-color: #596d48;
 	--input-default-color: #e5e7eb;
 }
@@ -44,7 +44,7 @@ body {
 	width: 30vw;
 	background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962");
 	background-size: cover;
-    min-width: 300px;
+	min-width: 300px;
 }
 
 .logo-overlay {
@@ -70,8 +70,8 @@ body {
 .main {
 	background-color: var(--main-bg-color);
 	width: 70vw;
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .attribution {
@@ -92,13 +92,13 @@ body {
 }
 
 .header p {
-    margin-bottom: 0;
-    margin-top: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 #p-margin {
-    margin-top: 20px;
-    margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
 
 .form {
@@ -106,51 +106,51 @@ body {
 	background-color: var(--form-bg-color);
 	width: 100%;
 	padding: 10px 25% 30px 5%;
-    box-shadow: 1px 2px 5px var(--form-shadow-color);
+	box-shadow: 1px 2px 5px var(--form-shadow-color);
 }
 
 .form p {
-    font-weight: 700;
-    font-size: 1.25rem;
-    margin: 10px 0;
+	font-weight: 700;
+	font-size: 1.25rem;
+	margin: 10px 0;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 fieldset {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
 	border: none;
-    margin: 0;
-    padding: 0;
+	margin: 15px 0;
+	padding: 0;
 }
 
 fieldset div {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 label {
-    font-size: 0.75rem;
-    font-weight: 700;
+	font-size: 0.75rem;
+	font-weight: 700;
 }
 
 input {
 	border: 1px solid var(--input-default-color);
 	box-shadow: 2px 1px 1px var(--input-default-color);
 	border-radius: 5px;
-    height: 1.5rem;
-    width: 150px;
+	height: 1.5rem;
+	width: 150px;
 }
 
 input:focus {
-    border-color: blue;
-    box-shadow: 2px 1px 1px blue;
+	border-color: blue;
+	box-shadow: 2px 1px 1px blue;
 }
 
 input:invalid {
@@ -159,31 +159,31 @@ input:invalid {
 }
 
 .actions {
-    padding-left: 5%;
+	padding-left: 5%;
 }
 
 #create-account {
-    background-color: var(--button-bg-color);
-    color: var(--img-txt-color);
-    padding: 10px 40px;
-    border: none;
-    border-radius: 5px;
-    margin: 20px 0;
+	background-color: var(--button-bg-color);
+	color: var(--img-txt-color);
+	padding: 10px 40px;
+	border: none;
+	border-radius: 5px;
+	margin: 20px 0;
 }
 
 #create-account:hover {
-    text-decoration: underline;
-    cursor: pointer;
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 #login a {
-    text-decoration: none;
-    color: var(--button-bg-color);
-    font-weight: 700;
+	text-decoration: none;
+	color: var(--button-bg-color);
+	font-weight: 700;
 }
 
 #login a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .footer {
@@ -193,5 +193,5 @@ input:invalid {
 	padding: 10px;
 	width: 100%;
 	margin-top: auto;
-    font-size: 0.75rem;
+	font-size: 0.75rem;
 }
